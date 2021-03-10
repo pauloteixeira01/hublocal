@@ -40,15 +40,15 @@ function Business({ match }) {
 
     //Validação dos dados
     if (!name) {
-      return alert('Você precisa informar o nome do estabelecimento');
+      return alert('Você precisa informar um título para a tarefa');
     } else if (!description) {
-      return alert('Você precisa informar a descrição do estabelecimento');
+      return alert('Você precisa informar a descrição da tarefa');
     } else if (!type) {
-      return alert('Você precisa informar qual o segmento do estabelecimento')
+      return alert('Você precisa informar qual o segmento da tarefa')
     } else if (!date) {
-      return alert('Você precisa informar a data de fundação do estabelecimento')
+      return alert('Você precisa informar a data da tarefa')
     } else if (!hour) {
-      return alert('Você precisa informar a hora de fundação do estabelecimento')
+      return alert('Você precisa informar a hora da tarefa')
     }
 
     if (match.params.id) {
@@ -72,7 +72,7 @@ function Business({ match }) {
   }
 
   async function Remove() {
-    const res = window.confirm('Deseja realmente excluir o cadastro desse estabelecimento?');
+    const res = window.confirm('Deseja realmente excluir a tarefa?');
     if (res === true) {
       await api.delete(`/task/${match.params.id}`)
       .then(() => setRedirect(true)); 
@@ -97,7 +97,7 @@ function Business({ match }) {
             TypeIcons.map((icon, index) => (
               index > 0 && 
               <button type="button" onClick={() => setType(index)}>
-                <img src={icon} alt="Tipo do Estabelecimento" 
+                <img src={icon} alt="Tipo de Tarefa" 
                 className={type && type !== index && 'inative'}/>
               </button>
             ))
@@ -105,14 +105,14 @@ function Business({ match }) {
         </S.TypeIcons>
 
         <S.Input>
-          <span>NOME</span>
-          <input type="text" placeholder="Digite o nome do estabelecimento" 
+          <span>Título</span>
+          <input type="text" placeholder="Digite o título da tarefa" 
           onChange={e => setName(e.target.value)} value={name} />
         </S.Input>
 
         <S.TextArea>
           <span>DESCRIÇÃO</span>
-          <textarea rows={5} placeholder="Uma breve descrição do estabelecimento" 
+          <textarea rows={5} placeholder="Uma breve descrição da tarefa" 
           onChange={e => setDescription(e.target.value)} value={description}/>
         </S.TextArea>
 

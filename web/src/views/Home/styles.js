@@ -32,13 +32,13 @@ export const Content = styled.div`
 
 export const Title = styled.div`
     width:100%;
-    border-bottom: 1px solid #53934d;
+    border-bottom: 1px solid #4367FB;
     display: flex;
     justify-content: center;
     margin-bottom: 1%;
 
     h3 {
-        color: #53934d;
+        color: #4367FB;
         position: relative;
         top: 30px;
         background: #FFF;

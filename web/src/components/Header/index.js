@@ -32,7 +32,7 @@ function Header() {
       <S.RightSide>
         <Link to="/">INÍCIO</Link>
         <span className="dividir" />
-        <Link to="/task">CADASTRAR ESTABELECIMENTO</Link>
+        <Link to="/task">AGENDAR TAREFA</Link>
         <span className="dividir" />
         { !isConnected ?
           <Link to="/qrcode">SINCRONIZAR SMARTPHONE</Link>

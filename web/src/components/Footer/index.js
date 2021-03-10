@@ -4,7 +4,7 @@ import * as S from './styles';
 function Footer() {
   return (
     <S.Container>
-      <span>FortBrasil</span>
+      <span>Hublocal</span>
     </S.Container>
   )
 }

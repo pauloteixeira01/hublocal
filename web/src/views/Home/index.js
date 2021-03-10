@@ -60,7 +60,7 @@ function Home() {
       </S.FilterArea>
 
       <S.Title>
-        <h3>ESTABELECIMENTOS</h3>
+        <h3>TAREFAS</h3>
       </S.Title>
 
       <S.Content>

@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width:100%;
     height:70px;
-    background: #F0EEA5;
-    border-bottom:5px solid #53934d;    
+    background: #B0C4DE;
+    border-bottom:5px solid #4367FB;    
     display: flex;
     
 `
@@ -31,13 +31,13 @@ export const RightSide = styled.div`
     
 
     a {
-        color: #53934d;
+        color: #4367FB;
         font-weight: bold;
         text-decoration: none;
         margin: 0 10px;
 
         &:hover{
-            color: #000;
+            color: #04EB8F;
         }
     }   
 
@@ -74,7 +74,7 @@ export const RightSide = styled.div`
 
     button {
         font-size: 16px;
-        color: #53934d;    
+        color: #4367FB;    
     }
    
 `

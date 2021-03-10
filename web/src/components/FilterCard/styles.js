@@ -3,10 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width:100%;
     height:70px;
-    background: ${props => props.actived ? '#53934d' : '#F0EEA5'};
-    
+    background: ${props => props.actived ? '#4367FB' : '#B0C4DE'};
     cursor: pointer;
-    
     border-radius: 5px; 
     display: flex;
     flex-direction: column;
@@ -18,7 +16,7 @@ export const Container = styled.div`
     }
     
     span {
-        color: ${props => props.actived ? '#F0EEA5' : '#53934d'};
+        color: ${props => props.actived ? '#B0C4DE' : '#4367FB'};
         font-weight: bold;
         align-self: flex-end;
         font-size:18px;
@@ -26,7 +24,7 @@ export const Container = styled.div`
     }
 
     &:hover{
-        background: #53934d;
+        background: #03E795;
     }
 
 `
