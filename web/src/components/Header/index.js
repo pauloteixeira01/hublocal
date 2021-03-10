@@ -20,7 +20,7 @@ function Header() {
   })
 
   async function Logout() {
-    localStorage.removeItem('@todo/macaddress');
+    localStorage.removeItem('@yourMac/macaddress');
     window.location.reload();
   }
 

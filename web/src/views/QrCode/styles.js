@@ -14,11 +14,11 @@ export const Content = styled.div`
     align-items: center;
 
     h1 {
-        color: #53934d;
+        color: #4367FB;
         margin:0px; 
     }
     p {
-        color: #53934d;
+        color: #4367FB;
     }
 `
 export const QrCodeArea = styled.div`
@@ -45,7 +45,7 @@ export const ValidationCode = styled.div`
 
     button {
         font-weight: bold;
-        background: #53934d;
+        background: #4367FB;
         color: #FFF;
         font-size: 18px;
         padding: 10px;
