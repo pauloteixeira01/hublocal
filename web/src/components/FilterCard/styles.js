@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width:100%;
-    height:70px;
+    height:100%;
     background: ${props => props.actived ? '#4367FB' : '#B0C4DE'};
     cursor: pointer;
     border-radius: 5px; 
