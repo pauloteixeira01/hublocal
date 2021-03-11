@@ -43,7 +43,7 @@ function Home() {
       
       <S.FilterArea>
         <button type="button" onClick={() => setFilterActived("all")}>
-          <FilterCard title="Todos" actived={filterActived === 'all'} />
+          <FilterCard title="Todas" actived={filterActived === 'all'} />
         </button>
         <button type="button" onClick={() => setFilterActived("today")}>
           <FilterCard title="Hoje" actived={filterActived === 'today'} />
