@@ -53,7 +53,7 @@ class BusinessController {
                 if (response) {
                     return res.status(200).json(response);
                 } else {
-                    return res.status(404).json({error: 'Estabelecimento não encontrado'});
+                    return res.status(404).json({error: 'Tarefa não encontrada'});
                 }
             })
             .catch(error => {
