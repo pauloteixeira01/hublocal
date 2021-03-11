@@ -12,7 +12,7 @@ const FieldValidation = async (req, res, next) => {
         return res.status(400).json({ error:  'Tipo é obrigatório'});
     }  
     if (!name) {
-        return res.status(400).json({ error:  'Nome é obrigatório'});
+        return res.status(400).json({ error:  'Título é obrigatório'});
     }  
     if (!description) {
         return res.status(400).json({ error:  'Descrição é obrigatório'});
