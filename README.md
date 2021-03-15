@@ -7,6 +7,8 @@
 * Express
 * Insomnia
 * MongoDB
+    * There is no need for any configuration. MongoDB just needs to be installed and running.
+      
 
 ### To run the project
 1. Open a terminal in the project folder (API folder).
